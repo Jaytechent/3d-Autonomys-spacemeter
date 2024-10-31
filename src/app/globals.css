@@ -6,7 +6,22 @@
   --background: #ffffff;
   --foreground: #171717;
 }
-
+@font-face {
+  font-family: "Azeret";
+  src: url("./fonts/AzeretMono-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+h1,
+h2,
+p,
+h3,
+span,
+button {
+  font-family: Azeret;
+  font-weight: medium;
+  font-style: small;
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -24,30 +39,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
-body,
-html {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
-canvas {
-  display: block; /* Prevents scrollbars */
-}
-/* styles.css or a global CSS file */
-@keyframes blink {
-  0%,
-  100% {
-    color: #ffffff; /* Initial color */
-  }
-  50% {
-    color: #3700ff; /* Blinking color */
-  }
-}
-
-.blinking-text {
-  animation: blink 1s infinite; /* Adjust the duration as needed */
 }

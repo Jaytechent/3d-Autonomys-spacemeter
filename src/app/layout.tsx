@@ -8,7 +8,7 @@ const geistSans = localFont({
   weight: "100 900",
 });
 const geistMono = localFont({
-  src: "./fonts/AzeretMono-Italic-VariableFont_wght.ttf",
+  src: "./fonts/AzeretMono-VariableFont_wght.ttf",
   variable: "--font-geist-mono",
   weight: "100 900",
 });
