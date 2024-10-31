@@ -44,7 +44,7 @@ export const Cube: FC = (props: JSX.IntrinsicElements["group"]) => {
       {/* Displaying fetched data as text on the cube */}
       <Text
         position={[0, 0.5, 1.1]} // Adjust position as needed
-        fontSize={0.6}
+        fontSize={0.9}
         color="#566EB1"
         textAlign="center"
         anchorX="center"
@@ -54,7 +54,7 @@ export const Cube: FC = (props: JSX.IntrinsicElements["group"]) => {
       </Text>
       <Text
         position={[0, -0.5, 1.1]} // Adjust position for other data points
-        fontSize={0.4}
+        fontSize={0.6}
         color="#566EB1"
         textAlign="center"
         anchorX="center"
