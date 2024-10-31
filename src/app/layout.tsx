@@ -3,18 +3,18 @@ import localFont from "next/font/local";
 import "./globals.css";
 
 const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
+  src: "./fonts/AzeretMono-Italic-VariableFont_wght.ttf",
   variable: "--font-geist-sans",
   weight: "100 900",
 });
 const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
+  src: "./fonts/AzeretMono-Italic-VariableFont_wght.ttf",
   variable: "--font-geist-mono",
   weight: "100 900",
 });
 
-const title = "AI3 Info";
-const description = "Get info on Autonomys Network";
+const title = "Autonomys Space Meter";
+const description = "Get Space pledged on Autonomys Network";
 
 export const metadata: Metadata = {
   title,
@@ -22,14 +22,14 @@ export const metadata: Metadata = {
   openGraph: {
     title,
     description,
-    images: ["/images/ai3-info-og.png"],
-    url: "https://ai3.info",
+    images: ["/images/bg.webp"],
+    url: "https://autonomys.network.com",
   },
   twitter: {
     card: "summary_large_image",
     title,
     description,
-    images: ["/images/ai3-info-og.png"],
+    images: ["/images/bg.webp"],
   },
 };
 

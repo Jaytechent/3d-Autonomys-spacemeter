@@ -1,15 +1,15 @@
 {
-  "name": "ai3-info",
+  "name": "space-o-meter",
   "version": "0.1.0",
   "private": true,
   "description": "A simple space pledged gager to calculate and display the space pledged on the Autonomys Network.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/marc-aurele-besner/ai3-info"
+    "url": "https://github.com/jaytechent/space-meter"
   },
   "author": {
-    "name": "Marc-Aurele Besner",
-    "url": "https://github.com/marc-aurele-besner"
+    "name": "Jaytechent",
+    "url": "https://github.com/jaytechent"
   },
   "scripts": {
     "dev": "next dev",
