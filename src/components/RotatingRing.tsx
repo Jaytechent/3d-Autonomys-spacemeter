@@ -82,7 +82,7 @@ const RotatingRing: FC = () => {
 
   return (
     <>
-      <group ref={ringRef} rotation={[3, 2, 3]}>
+      <group ref={ringRef} rotation={[3, 3, 3]}>
         {/* Main Ring Model */}
         <Suspense fallback={<RingCompressed />}>
           <Ring />

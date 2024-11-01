@@ -10,7 +10,7 @@ export default async function Home() {
         AUTONOMYS NETWORK DATA OVERVIEW{" "}
       </h1>
       <Marquee>
-        <p className="text-transparent  text-4xl font-bold bg-gradient-to-tr from-red-900 to-blue-900 bg-clip-text">
+        <p className="text-transparent blinking-text  text-4xl font-bold bg-gradient-to-tr from-red-900 to-blue-900 bg-clip-text">
           {NetworkName.TAURUS}
         </p>
       </Marquee>
